@@ -17,17 +17,17 @@ section {
 }
 
 section img {
-    padding: 10px;
+    /* padding: 15px;
     background-color: blue;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-    border-radius: 50%;
-    border: 1px solid blue;
+    /* border-radius: 50%;
+    border: 1px solid blue; */
 }
-section img:hover {
+section div:hover {
     background-color: white;
     /* filter: hue-rotate(260deg) */
 }
@@ -36,17 +36,17 @@ section div img:hover {
     /* color: black; */
     /* border: 1px solid black; */
     /* filter: ; */
-    /* filter: invert(10); */
+    filter: invert(10);
 }
 section div {
-    /* background-color: blue;
+    background-color: blue;
     width: 50px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 1px solid blue; */
+    border: 1px solid blue;
 }
 section p {
     margin-top: -10px;
