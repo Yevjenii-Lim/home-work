@@ -1,0 +1,55 @@
+main {
+    
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+section img {
+    padding: 10px;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+section img:hover {
+    background-color: white;
+    /* filter: hue-rotate(260deg) */
+}
+section div img:hover {
+    
+    /* color: black; */
+    /* border: 1px solid black; */
+    /* filter: ; */
+    /* filter: invert(10); */
+}
+section div {
+    /* background-color: blue;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid blue; */
+}
+section p {
+    margin-top: -10px;
+    color: grey;
+    text-align: center;
+}
