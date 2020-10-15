@@ -1,0 +1,47 @@
+* {
+    font-family:  'PT Sans', sans-serif;
+}
+body {
+    text-align: center;
+}
+p {
+    margin: 0;
+}
+header {
+    margin-top: 50px;
+    text-align: center;
+    color: #00C9CC;
+}
+header section {
+    display: inline-block;
+    width: 25%;
+}
+main {
+    margin-top: 80px;
+}
+article {
+    text-align: center;
+}
+article section {
+    display: inline-block;
+    background-color: #F7F7F7;
+    margin-right: -4px;
+    width: 200px;
+    transition: 0.5s;
+}
+article section:hover {
+    cursor: pointer;
+    background-color: #00C9CC;
+    color: white;
+}
+article section img {
+    padding: 30px 40px;
+    padding-top: 60px;
+}
+.description {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 25px;
+    padding: 0 15px;
+    padding-bottom: 70px;
+}

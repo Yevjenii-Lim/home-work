@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Grande', sans-serif;
+}
+body {
+    background-color: #3399CC;
+    text-align: center;
+    border: 10px solid #2B81AC;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+header {
+    text-align: left;
+    color: white;
+}
+main, body {
+    box-sizing: border-box;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+main {
+    /* text-align: center; */
+}
+article {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+ul {
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0;
+    /* display: inline-block; */
+    border: 5px solid white;
+}
+ul li div p:first-child {
+    color: white;
+}
+ul li div p:last-child {
+    color: #C0DFEF;
+}
+.first-row div:first-child {
+    width: 50%;
+}
+ul li {
+    
+}
+ul li + li {
+    border-top: 5px solid white;
+}
+ul li div {
+    height: ;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    margin-left: -4.2px;
+    transition: all .1s ease-in;
+}
+ul li div:not(:last-child) {
+    border-right: 5px solid white;
+}
+.second {
+    
+}
+.first-row div:not(:first-child){
+    width: 25%;
+}
+.first-row div:nth-child(2) {
+    background-color: #33CCCC;
+}
+.first-row div:last-child {
+    background-color: #996699;
+}
+li div{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    /* width: 100%; */
+    /* border: 2.5px solid white; */
+    border-collapse: collapse;
+}
+
+.second-row div {
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.second-row div:first-child {
+    /* margin-left: -1px; */
+    background-color: #C24747;
+}
+.second-row div:nth-child(2){
+    background-color: #E2674A;
+}
+.second-row div:nth-child(3){
+    background-color: #FFCC66;
+}
+.second-row div:last-child {
+    background-color: #99CC99;
+}
+.third-row div:nth-child(2) {
+    width: 50%;
+}
+.third-row div:not(:nth-child(2)) {
+    width: 25%;
+}
+.third-row div:first-child {
+    background-color: #669999;
+}
+.third-row div:nth-child(2){
+    background-color: #CC6699;
+}
+.third-row div:last-child {
+    background-color: #339966;
+}
+.last-row div {
+    width: 100%;
+    background-color: #666699;   
+}
+footer {
+    text-align: left;
+    color: white;
+}
+ul li div:hover {
+    opacity: 0.5;
+}
