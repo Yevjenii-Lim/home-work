@@ -26,7 +26,7 @@ h1 {
     font-weight: 300;
 }
 p{
-    line-height: 1.5em;
+    line-height: 1.6em;
     font-family:'Lato', sans-serif;
     color:#5c5c5c;
 }
@@ -49,12 +49,16 @@ article section p span {
 .last {
     font-family: 'Montserrat', sans-serif;
 }
+.last span {
+    font-size: 50px;
+    color: #5c5c5c;
+}
 button {
-    padding: 20px 60px;
+    padding: 1.3em 4em;
     background: transparent;
-    border: 3px solid yellow;
-    color: yellow;
-    text-shadow: 2px 2px green;
+    border: 2px solid #eaa258;
+    color: #eaa258;
+    /* text-shadow: 2px 2px green; */
     outline: none;
     text-transform: uppercase;
 }
