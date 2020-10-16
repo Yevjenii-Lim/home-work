@@ -1,7 +1,4 @@
-* {
-    /* font-family:'Lato', sans-serif; */
-    /* font-weight: 300; */
-}
+
 body {
     text-align: center;
     /* border: 1px solid black; */
@@ -35,9 +32,7 @@ span {
     line-height: normal;
     color: black;
 }
-section p:nth-child(2){
-    /* line-height: 1.4em; */
-}
+
 article section p span {
     font-size: 110px;
     float: left;

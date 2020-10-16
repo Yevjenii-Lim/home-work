@@ -1,0 +1,128 @@
+body {
+    background-color: #464f54;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+header article input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white;
+}
+header article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    opacity: 0.5;
+}
+header {
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    margin-top: 2em;
+    width: 70%;
+    float: right;
+    z-index: 10;
+}
+header article {
+    box-sizing: border-box;
+    padding: 2em 0em 2em 2em;
+    color: white;
+    background-color: black;
+    float: right;
+    width: 100%;
+}
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #303030; /* Цвет линии для остальных браузеров */
+    background-color: #303030; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; 
+}
+header aside {
+    box-sizing: border-box;
+    background-color: #f7bd2c;
+    width: 95%;
+    /* height: 2em; */
+    float: right;
+}
+header aside i {
+    padding: 0.5em;
+    color: white;
+    font-weight: 300;
+    opacity: 0.5;
+    /* padding-left: 1em; */
+}
+header aside i:first-child {
+    padding-left: 1.5em;
+}
+header aside i:hover {
+    opacity: 1;
+}
+
+main {
+    
+    text-align: center;
+}
+main article {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: white;
+    width: 70%;
+    height: 1000px;
+    margin-top: 7em;
+    text-align: left;
+    /* padding-left: 1.4em; */
+    
+   
+    /* z-index: 0; */
+}
+main article div {
+    margin-left: 4em;
+    border-left: 2px solid #e8eced;
+    height: 100%;
+    margin-right: 4em;
+    
+}
+main article div p:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    opacity: 0.2;
+    font-size: 1.2em;
+    padding-left: 2.8em;
+    padding-top: 6em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+main article div h1 {
+    padding-left: 1.4em;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    /* margin: 0; */
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.comment {
+    padding: 0;
+    padding-left: 2.5em;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
+    letter-spacing: normal;
+    color: grey;
+}
+main article div section {
+    line-height: 1.4em;
+    margin-top: 1em;
+    padding: 0em 2.4em 0em 2.4em;
+    font-size: 1.3em;
+}
