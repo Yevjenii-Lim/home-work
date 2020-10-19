@@ -1,0 +1,143 @@
+body {
+    background-color: #e2e7ec;
+    display: flex;
+    justify-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 100p;
+    align-items: center;
+}
+
+article {
+    /* border:1px solid black; */
+    width: 50.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    /* align-items: stretch; */
+
+    /* background-color: #e2e7ec; */
+}
+
+article section:first-child {
+    /* width: 300px; */
+    height: 300px;
+    /* height: auto; */
+    background-image: url('img/big-car-bg-photo.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+    color: white;
+    /* flex-grow: 5; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 5; */
+    flex: 0 0 430px;
+}
+p, h1 {
+    margin: 0;
+}
+p {
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+article section {
+    margin: 5px;
+}
+article .car h1, article .car p{
+    text-transform: uppercase;
+    z-index: 10;
+}
+article .car {
+    position: relative;
+   
+}
+article .car div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+}
+article section:not(.car){
+    background-color: white;
+    height: 363px;
+    /* margin-left: 20px; */
+    padding-top: 0;
+    width: 242px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 0; */
+    /* background: none; */
+}
+article section:not(.car) div {
+    /* width: 90%; */
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+article section:not(.car) div {
+    margin: 0px 15px;
+}
+
+article section:not(.car) div p {
+    margin: 10px 0px;
+}
+article section div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* border: 1px solid black; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end; */
+}
+section > img {
+    width: 100%;
+}
+article section div img {
+    width: 35px;
+    margin-top: auto;
+    margin-right: auto;
+    /* margin-bottom: 5px; */
+}
+article section div h1 {
+    font-size: 14px;
+}
+.circle {
+    /* position: absolute; */
+    /* top: 20%; */
+    /* left: 50%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-top: 10px solid white;
+    
+    animation: 1.5s linear 0s infinite animate;
+}
+
+@keyframes animate {
+    from {
+        transform:  rotate(0deg);
+    }
+    to {
+        transform:  rotate(360deg);
+    }
+}
