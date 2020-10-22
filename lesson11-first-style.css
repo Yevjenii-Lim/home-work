@@ -1,0 +1,121 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+body div:first-child {
+    /* width: 80%; */
+}
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    
+}
+h1 {
+    margin: 0;
+}
+header {
+    background-image: url('img/lesson11-header.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    padding: 2em 10em;
+    display: flex;
+    flex-direction: column;
+    height: 715px;
+    box-sizing: border-box;
+    position: relative;
+    /* border: 1px solid black */
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.header__nav ul {
+    display: flex;
+    list-style: none;
+}
+.header__nav ul li {
+    margin-left: 1.5em;
+    position: relative;
+    transition: 0.5s;cursor: pointer;
+}
+.header__nav ul li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transform: scale(0);
+    border-top: 3px solid red;
+}
+.header__nav ul li:hover::before {
+    transform: scale(1);
+    
+}
+.header__fresh p{
+    /* position: absolute; */
+    width: 250px;
+    align-self: center;
+}
+.header__fresh {
+    /* align-self: center; */
+    margin-top: 10em;
+    margin-bottom: auto;
+    /* padding-bottom: 500px; */
+}
+.header__fresh h1 {
+    font-weight: 800;
+}
+.header__fresh button {
+    padding: 0.7em 2em;
+    background-color: #ff6033;
+    color: white;
+    text-transform: uppercase;
+}
+.header__scroll {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+}
+
+main {
+    background-color: #00bcbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+}
+.main__img {
+    /* border: 1px solid black; */
+    width: 600PX;
+    /* margin-right: 20px; */
+    /* margin-bottom: auto; */
+    /* position: absolute; */
+    /* border-radius: 50%; */
+    /* position: relative; */
+}
+.main__img img {
+    position: absolute;
+    /* width: 40%; */
+    width: 600px;
+    top: 3em;
+    transform: translateY(-5%);
+}
+.main__about-us {
+    color: white;
+    margin-right: 100px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.main__about-us h1 {
+    margin: 0;
+    font-size: 3em;
+}
